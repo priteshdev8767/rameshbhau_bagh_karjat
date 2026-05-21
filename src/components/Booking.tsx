@@ -15,7 +15,7 @@ export default function Booking() {
   const handleBook = (e: React.FormEvent) => {
     e.preventDefault();
     const message = `Booking Inquiry:%0A- Check-in: ${formData.checkIn}%0A- Check-out: ${formData.checkOut}%0A- Guests: ${formData.guests}%0A- Package: ${formData.package}`;
-    window.open(`https://wa.me/917775070464?text=${message}`, '_blank');
+    window.open(`https://wa.me/917775093277?text=${message}`, '_blank');
   };
 
   return (
@@ -63,7 +63,7 @@ export default function Booking() {
                 </div>
                 <div>
                   <p className="text-brand-gray text-sm">Call Us Directly</p>
-                  <p className="text-white font-semibold text-lg">+91 77750 70464</p>
+                  <p className="text-white font-semibold text-lg">+91 77759 93277</p>
                 </div>
               </div>
             </div>

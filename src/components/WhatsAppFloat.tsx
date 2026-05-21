@@ -1,7 +1,7 @@
 import { MessageCircle } from "lucide-react";
 
 export default function WhatsAppFloat() {
-  const phoneNumber = "917775070464"; // Primary number with country code
+  const phoneNumber = "7775993277"; // Primary number with country code
   const message = "Hi Rameshbhau Bagh Resort! I would like to inquire about booking a stay.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
